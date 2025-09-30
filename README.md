@@ -89,6 +89,9 @@ advanced-auth/
 - 🧩 **Reusable OAuth Class**
   Implemented using **Object-Oriented Programming** → one class can handle multiple providers (Google, Facebook, X, etc.) without duplication.
 
+- 🧩 **Reusable Email Service Class**
+  Implemented using **Object-Oriented Programming** → created a **flexible Email class** that can send emails via multiple providers (Gmail, Mailtrap, etc.) without rewriting code, making it easy to integrate any new email service while fully adhering to **OO principles**.
+
 - 🔁 **Idempotency**
   Ensures safe re-execution of critical flows (like OTP verification or token refresh) without side effects.
 
