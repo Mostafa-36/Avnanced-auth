@@ -1,4 +1,4 @@
-```markdown
+
 # 🔐 Advanced-auth API - Authentication & Authorization System (Node.js + Express)
 
 A production-ready **Authentication & Authorization system** built from scratch using **Node.js + Express**, with modern security practices and multiple login methods.  
@@ -6,7 +6,7 @@ It supports **Email/Password with OTP verification** and **Social Logins** (Goog
 
 ---
 
-✨ **Overview**
+## ✨ **Overview**
 Advanced-auth is a backend project that provides a clean and scalable authentication solution.  
 It uses **MongoDB** for persistent storage, **Redis** for OTP handling & storing idempotency keys, **Bull** background jobs, and follows a **modular, layered architecture**.  
 The project demonstrates practical skills in **secure backend API development**, **OAuth integrations**, and **session/token management**.
@@ -31,8 +31,8 @@ The project demonstrates practical skills in **secure backend API development**,
 ---
 
 ## 📁 Project Structure
-```
 
+```
 advanced-auth/
 ├── src/
 │ ├── config/ # App configuration (DB, Redis, env, etc.)
@@ -52,7 +52,6 @@ advanced-auth/
 ├── .env
 ├── package.json
 └── README.md
-
 ````
 
 ---
@@ -110,9 +109,9 @@ advanced-auth/
 
 ## ⚙️ Environment Variables
 
-`backend/.env`
+### `backend/.env`
 
-```env
+```
 PORT=5005
 BASE_URL=http://127.0.0.1:5005
 
@@ -204,6 +203,3 @@ LinkedIn: [@mostafa-adly](https://linkedin.com/in/mostafa-adly)
 
 ⭐️ **Star this project if you like it — it motivates open-source development!**
 
-```
-
-```
