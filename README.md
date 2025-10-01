@@ -9,7 +9,7 @@ It supports **Email/Password with OTP verification** and **Social Logins** (Goog
 ## ✨ **Overview**
 Advanced-auth is a backend project that provides a clean and scalable authentication solution.  
 It uses **MongoDB** for persistent storage, **Redis** for OTP handling & storing idempotency keys, **Bull** background jobs, and follows a **modular, layered architecture**.  
-The project demonstrates practical skills in **secure backend API development**, **OAuth integrations**, and **session/token management**.
+The project demonstrates practical skills in **secure backend API development**, **OAuth integrations**, and **session/token management**, and the ability to **log out from all devices except the current one**.
 
 ⚡ A **frontend** will be built later to connect with this API.
 
